@@ -1,4 +1,6 @@
-// Get the current year for the copyright
+$( document ).ready(function() {
+    console.log( "ready!" );
+	// Get the current year for the copyright
 $('#year').text(new Date().getFullYear());
 
 //init scrollspy
@@ -18,4 +20,5 @@ $("#main-nav a").on('click', function (event) {
      window.location.hash = hash;
    });
  }
+});
 });
